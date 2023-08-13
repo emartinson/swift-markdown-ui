@@ -9,5 +9,3 @@ FOUNDATION_EXPORT double markdown_uiVersionNumber;
 FOUNDATION_EXPORT const unsigned char markdown_uiVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <markdown_ui/PublicHeader.h>
-
-

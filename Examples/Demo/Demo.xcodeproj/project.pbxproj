@@ -10,7 +10,7 @@
 		52DCE7EE2A8878B100B16F3A /* markdown_ui.h in Headers */ = {isa = PBXBuildFile; fileRef = 52DCE7ED2A8878B100B16F3A /* markdown_ui.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52DCE7F12A8878B100B16F3A /* markdown_ui.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DCE7EB2A8878B100B16F3A /* markdown_ui.framework */; };
 		52DCE7F22A8878B100B16F3A /* markdown_ui.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52DCE7EB2A8878B100B16F3A /* markdown_ui.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		52DCE7F82A8878C800B16F3A /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = 52DCE7F72A8878C800B16F3A /* MarkdownUI */; };
+		52DCE7F82A8878C800B16F3A /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = 52DCE7F72A8878C800B16F3A /* MarkdownUI */; settings = {ATTRIBUTES = (Required, ); }; };
 		9902F2B229571D5D003A2DCC /* ImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9902F2B129571D5D003A2DCC /* ImagesView.swift */; };
 		9902F2B729575183003A2DCC /* ImageProvidersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9902F2B629575183003A2DCC /* ImageProvidersView.swift */; };
 		991E39862950A73500A3012A /* QuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991E39852950A73500A3012A /* QuotesView.swift */; };

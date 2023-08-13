@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52DCE7EE2A8878B100B16F3A /* markdown_ui.h in Headers */ = {isa = PBXBuildFile; fileRef = 52DCE7ED2A8878B100B16F3A /* markdown_ui.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52DCE7F12A8878B100B16F3A /* markdown_ui.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DCE7EB2A8878B100B16F3A /* markdown_ui.framework */; };
-		52DCE7F22A8878B100B16F3A /* markdown_ui.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52DCE7EB2A8878B100B16F3A /* markdown_ui.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		52DCE7F82A8878C800B16F3A /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = 52DCE7F72A8878C800B16F3A /* MarkdownUI */; settings = {ATTRIBUTES = (Required, ); }; };
 		9902F2B229571D5D003A2DCC /* ImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9902F2B129571D5D003A2DCC /* ImagesView.swift */; };
 		9902F2B729575183003A2DCC /* ImageProvidersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9902F2B629575183003A2DCC /* ImageProvidersView.swift */; };
 		991E39862950A73500A3012A /* QuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991E39852950A73500A3012A /* QuotesView.swift */; };
@@ -35,16 +31,6 @@
 		99DE2A41294F8ED70025E332 /* TextStylesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE2A40294F8ED70025E332 /* TextStylesView.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		52DCE7EF2A8878B100B16F3A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 99DE2A13294D9A2B0025E332 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52DCE7EA2A8878B100B16F3A;
-			remoteInfo = "markdown-ui";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		52DCE7F32A8878B100B16F3A /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -52,7 +38,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				52DCE7F22A8878B100B16F3A /* markdown_ui.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,7 +45,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		52DCE7EB2A8878B100B16F3A /* markdown_ui.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = markdown_ui.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52DCE7ED2A8878B100B16F3A /* markdown_ui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = markdown_ui.h; sourceTree = "<group>"; };
 		9902F2B129571D5D003A2DCC /* ImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesView.swift; sourceTree = "<group>"; };
 		9902F2B629575183003A2DCC /* ImageProvidersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProvidersView.swift; sourceTree = "<group>"; };
@@ -86,20 +70,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		52DCE7E82A8878B100B16F3A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52DCE7F82A8878C800B16F3A /* MarkdownUI in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		99DE2A18294D9A2B0025E332 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				994F5D87295821AF00B2BB51 /* SDWebImageSwiftUI in Frameworks */,
-				52DCE7F12A8878B100B16F3A /* markdown_ui.framework in Frameworks */,
 				99DE2A2F294D9AFB0025E332 /* MarkdownUI in Frameworks */,
 				99B59C9B29548FCF00390E9B /* Splash in Frameworks */,
 			);
@@ -140,7 +115,6 @@
 			isa = PBXGroup;
 			children = (
 				99DE2A1B294D9A2B0025E332 /* Demo.app */,
-				52DCE7EB2A8878B100B16F3A /* markdown_ui.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -187,39 +161,7 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		52DCE7E62A8878B100B16F3A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52DCE7EE2A8878B100B16F3A /* markdown_ui.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		52DCE7EA2A8878B100B16F3A /* markdown-ui */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 52DCE7F62A8878B100B16F3A /* Build configuration list for PBXNativeTarget "markdown-ui" */;
-			buildPhases = (
-				52DCE7E62A8878B100B16F3A /* Headers */,
-				52DCE7E72A8878B100B16F3A /* Sources */,
-				52DCE7E82A8878B100B16F3A /* Frameworks */,
-				52DCE7E92A8878B100B16F3A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "markdown-ui";
-			packageProductDependencies = (
-				52DCE7F72A8878C800B16F3A /* MarkdownUI */,
-			);
-			productName = "markdown-ui";
-			productReference = 52DCE7EB2A8878B100B16F3A /* markdown_ui.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		99DE2A1A294D9A2B0025E332 /* Demo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99DE2A29294D9A2C0025E332 /* Build configuration list for PBXNativeTarget "Demo" */;
@@ -232,7 +174,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				52DCE7F02A8878B100B16F3A /* PBXTargetDependency */,
 			);
 			name = Demo;
 			packageProductDependencies = (
@@ -254,9 +195,6 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					52DCE7EA2A8878B100B16F3A = {
-						CreatedOnToolsVersion = 14.3.1;
-					};
 					99DE2A1A294D9A2B0025E332 = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -280,19 +218,11 @@
 			projectRoot = "";
 			targets = (
 				99DE2A1A294D9A2B0025E332 /* Demo */,
-				52DCE7EA2A8878B100B16F3A /* markdown-ui */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		52DCE7E92A8878B100B16F3A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		99DE2A19294D9A2B0025E332 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -305,13 +235,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		52DCE7E72A8878B100B16F3A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		99DE2A17294D9A2B0025E332 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -338,81 +261,7 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		52DCE7F02A8878B100B16F3A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 52DCE7EA2A8878B100B16F3A /* markdown-ui */;
-			targetProxy = 52DCE7EF2A8878B100B16F3A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		52DCE7F42A8878B100B16F3A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
-				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emartinson.markdown-ui";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		52DCE7F52A8878B100B16F3A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
-				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.emartinson.markdown-ui";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		99DE2A27294D9A2C0025E332 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -588,15 +437,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52DCE7F62A8878B100B16F3A /* Build configuration list for PBXNativeTarget "markdown-ui" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				52DCE7F42A8878B100B16F3A /* Debug */,
-				52DCE7F52A8878B100B16F3A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		99DE2A16294D9A2B0025E332 /* Build configuration list for PBXProject "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -637,10 +477,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		52DCE7F72A8878C800B16F3A /* MarkdownUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = MarkdownUI;
-		};
 		994F5D86295821AF00B2BB51 /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 994F5D85295821AF00B2BB51 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
